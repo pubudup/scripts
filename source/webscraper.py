@@ -1,4 +1,13 @@
-#web scraper tool to view a list of quotes from a website
+"""
+Basic Web Scraper
+------------------
+This script scrapes data from a target website using BeautifulSoup and requests.
+
+Technologies used:
+- requests: for sending HTTP requests
+- BeautifulSoup (bs4): for parsing HTML content
+"""
+
 import requests
 from bs4 import BeautifulSoup
 

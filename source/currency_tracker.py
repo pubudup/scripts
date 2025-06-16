@@ -1,4 +1,14 @@
-#Coverts currency using live exchange rates using currency exchange api
+"""
+Currency Tracker CLI App
+-------------------------
+This script fetches real-time foreign exchange rates using the exchangerate.host API.
+Users can specify a base currency and target currency to retrieve the latest conversion rate.
+It also displays metadata like date, timestamp, and available currency count.
+
+Technologies used:
+- requests: for HTTP API calls
+- json: for parsing API responses
+"""
 import requests
 
 def fetch_exchange_rates(base_currency="EUR"):

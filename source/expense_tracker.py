@@ -1,4 +1,14 @@
-#cli tool to track expenses
+"""
+Personal Expense Tracker (CLI Version)
+---------------------------------------
+This script allows users to track daily expenses via the command line.
+Users can add expenses, view totals, and optionally export data to a file.
+Useful for budgeting and spending analysis.
+
+Technologies used:
+- json: for storing data
+- datetime: for timestamping entries
+"""
 import json
 from datetime import datetime
 
