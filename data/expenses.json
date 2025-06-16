@@ -1,0 +1,22 @@
+[
+    {
+        "amount": 12.5,
+        "category": "lunch",
+        "date": "2025-06-15"
+    },
+    {
+        "amount": 30.0,
+        "category": "transport",
+        "date": "2025-06-14"
+    },
+    {
+        "amount": 100.0,
+        "category": "groceries",
+        "date": "2025-06-13"
+    },
+    {
+        "amount": 1000.0,
+        "category": "entertainment",
+        "date": "2025-06-16"
+    }
+]
