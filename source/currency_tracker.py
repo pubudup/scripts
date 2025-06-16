@@ -1,3 +1,4 @@
+#Coverts currency using live exchange rates using currency exchange api
 import requests
 
 def fetch_exchange_rates(base_currency="EUR"):

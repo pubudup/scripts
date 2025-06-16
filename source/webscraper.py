@@ -1,3 +1,4 @@
+#web scraper tool to view a list of quotes from a website
 import requests
 from bs4 import BeautifulSoup
 

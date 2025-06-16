@@ -1,3 +1,4 @@
+#cli tool to track expenses
 import json
 from datetime import datetime
 
