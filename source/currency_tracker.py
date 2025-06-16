@@ -17,7 +17,7 @@ def fetch_exchange_rates(base_currency="EUR"):
 
 
 def display_summary(data):
-    print(f"✅ Exchange Rate Summary")
+    print(f" Exchange Rate Summary")
     print(f"Date       : {data['date']}")
     print(f"Base       : {data['base']}")
     print(f"Timestamp  : {data['timestamp']}")
@@ -32,7 +32,7 @@ def track_currency(data, target_currency):
         return
 
     rate = rates[target_currency]
-    print(f"💱 1 {data['base']} = {rate:.4f} {target_currency}")
+    print(f" 1 {data['base']} = {rate:.4f} {target_currency}")
 
 
 def main():
