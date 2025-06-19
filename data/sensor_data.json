@@ -1,0 +1,5 @@
+[
+  { "device": "thermo01", "temp": 23.1, "humidity": 40 },
+  { "device": "thermo01", "temp": 23.3, "humidity": 42 },
+  { "device": "thermo01", "temp": 23.5, "humidity": 41 }
+]
