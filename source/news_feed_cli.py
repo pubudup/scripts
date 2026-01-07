@@ -31,7 +31,7 @@ def get_top_headlines(country="gb", max_articles=5):
     return data['articles']
 
 def print_headlines(articles):
-    print("\n📰 Top Headlines:\n")
+    print("\n Top Headlines:\n")
     for idx, article in enumerate(articles, 1):
         print(f"{idx}. {article['title']}")
         print(f"   {article['description']}")
