@@ -27,7 +27,7 @@ client.connect(BROKER, PORT, keepalive=60)
 # Start a background thread to handle network events
 client.loop_start()
 
-# 📨 Publish a message every 5 seconds
+#Publish a message every 5 seconds
 try:
     count = 1
     while True:
