@@ -13,7 +13,7 @@ client.loop_start()
 
 #client.publish("test/iot/secure", "Secure MQTT connection")
 
-# 📨 Publish a message every 5 seconds
+# Publish a message every 5 seconds
 BROKER = "test.mosquitto.org"
 PORT = 1883
 TOPIC = "test/iot/demo"
